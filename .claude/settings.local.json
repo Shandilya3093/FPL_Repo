@@ -3,7 +3,11 @@
     "allow": [
       "Bash(git remote add:*)",
       "WebFetch(domain:www.oliverlooney.com)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(git clone:*)",
+      "Bash(tree:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git push:*)"
     ],
     "deny": []
   }
